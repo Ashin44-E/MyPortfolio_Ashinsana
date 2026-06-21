@@ -161,7 +161,7 @@ export const portfolioData = {
       longDescription: "Built with a clean Android UI, this mobile application helps users maintain positive daily routines. Incorporates notification reminders, persistent offline data saving, custom home screen widgets, and interactive mood analytics.",
       techStack: ["Kotlin", "RecyclerView", "SharedPreferences", "Android Notifications", "Widgets"],
       category: "Other",
-      githubUrl: "https://github.com,
+      githubUrl: "https://github.com",
       imageUrl: "/images/hydrationReminder.webp"
     }
   ] as Project[],
