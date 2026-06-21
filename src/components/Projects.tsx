@@ -86,17 +86,27 @@ export default function Projects() {
               key={project.id}
               className="group flex flex-col justify-between overflow-hidden rounded-2xl bg-slate-50 dark:bg-zinc-950 border border-slate-200/50 dark:border-zinc-850/50 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1.5"
             >
-              {/* Project Card Header (Stylized Banner Image Placeholder) */}
-              <div className={`relative h-48 w-full bg-gradient-to-br ${getGradient(project.id)} flex items-center justify-center border-b border-slate-200/50 dark:border-zinc-800/30 overflow-hidden`}>
-                <div className="absolute inset-0 bg-grid-pattern opacity-10" />
-                <div className="flex flex-col items-center gap-2 z-10 group-hover:scale-110 transition-transform duration-300">
-                  <div className="p-4 bg-white dark:bg-zinc-900 rounded-2xl shadow-sm border border-slate-100 dark:border-zinc-800">
-                    {getProjectIcon(project.category)}
+              {/* Project Card Header (Image or Stylized Banner) */}
+              <div className="relative h-48 w-full overflow-hidden border-b border-slate-200/50 dark:border-zinc-800/30 bg-slate-100 dark:bg-zinc-900">
+                {project.imageUrl ? (
+                  <img
+                    src={project.imageUrl}
+                    alt={project.title}
+                    className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div className={`relative h-full w-full bg-gradient-to-br ${getGradient(project.id)} flex items-center justify-center`}>
+                    <div className="absolute inset-0 bg-grid-pattern opacity-10" />
+                    <div className="flex flex-col items-center gap-2 z-10 group-hover:scale-110 transition-transform duration-300">
+                      <div className="p-4 bg-white dark:bg-zinc-900 rounded-2xl shadow-sm border border-slate-100 dark:border-zinc-800">
+                        {getProjectIcon(project.category)}
+                      </div>
+                      <span className="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400">
+                        {project.category}
+                      </span>
+                    </div>
                   </div>
-                  <span className="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400">
-                    {project.category}
-                  </span>
-                </div>
+                )}
               </div>
 
               {/* Project Card Body */}
