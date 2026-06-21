@@ -56,7 +56,7 @@ export const portfolioData = {
     location: "Colombo, Sri Lanka",
     github: "https://github.com/Ashin44-E", // Placeholder GitHub URL
     linkedin: "https://www.linkedin.com/in/shamal-ashinsana", // Placeholder LinkedIn URL
-    resumeUrl: "/CV_of_Shamal_Ashinsana.pdf",
+    resumeUrl: "/CV_of_Shamal_Ashinsana.pdf?v=2",
   },
   aboutMe: {
     university: "Sri Lanka Institute of Information Technology",
