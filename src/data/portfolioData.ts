@@ -132,7 +132,7 @@ export const portfolioData = {
       category: "Web Development",
       githubUrl: "https://github.com/Ashin44-E/Tea-Plantation-Management-System",
       liveUrl: "https://ceylonleaf.vercel.app/", // Placeholder
-      imageUrl: "/images/ceylonleaf.jpg"
+      imageUrl: "/images/CeylonLeaf.png"
     },
     {
       id: "helpaura",
@@ -142,7 +142,7 @@ export const portfolioData = {
       techStack: ["Java Servlets", "JSP", "JDBC", "MySQL", "HTML5", "CSS3"],
       category: "Database",
       githubUrl: "https://github.com/Ashin44-E/HelpAura--Online-Help-Desk",
-      imageUrl: "/images/helpaura.jpg"
+      imageUrl: "/images/HelpAura.png"
     },
     {
       id: "jobsadawiya",
@@ -152,7 +152,7 @@ export const portfolioData = {
       techStack: ["PHP", "MySQL", "AJAX", "JavaScript", "HTML5", "CSS3"],
       category: "Web Development",
       githubUrl: "https://github.com/Ashin44-E/Jobsadawiya--Online-Job-Portal",
-      imageUrl: "/images/jobsadawiya.jpg"
+      imageUrl: "/images/JobsAdawiya.png"
     },
     {
       id: "habit-tracker",
@@ -161,8 +161,8 @@ export const portfolioData = {
       longDescription: "Built with a clean Android UI, this mobile application helps users maintain positive daily routines. Incorporates notification reminders, persistent offline data saving, custom home screen widgets, and interactive mood analytics.",
       techStack: ["Kotlin", "RecyclerView", "SharedPreferences", "Android Notifications", "Widgets"],
       category: "Other",
-      githubUrl: "https://github.com",
-      imageUrl: "/images/habittracker.jpg"
+      githubUrl: "https://github.com,
+      imageUrl: "/images/hydrationReminder.webp"
     }
   ] as Project[],
   education: [

@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ashinsana | IT Undergraduate Portfolio",
   description: "Personal portfolio website of Ashinsana, an Information Technology undergraduate seeking software engineering internships. Showcase of skills in Java, React, Node.js, and SQL.",
+  icons: {
+    icon: "/favicon.jpg",
+  },
   keywords: [
     "IT Undergraduate",
     "Software Engineering Intern",

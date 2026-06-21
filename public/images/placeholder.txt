@@ -1,0 +1,1 @@
+This folder contains the project card images. Please place your images (CeylonLeaf.png, HelpAura.png, JobsAdawiya.png, and hydrationReminder.jpg) here.
